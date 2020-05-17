@@ -7,7 +7,7 @@ Audio Cpmpression using deep learning.
 The objective is to represent audio files in such a format which is easier to send when there is a data bottleneck. This evolves representation of audio files in a better format.
 .flac/.mp3 files contain alot of information that is repeating. Which is a very inefficient way to transfer music over data. 
 
-### How I'm trying to slove this.
+### How I'm trying to solve this.
 Break alot of songs in a similar genre and break them into "Deltas"(Parts of song of very small length)
 Pass this delta through a "Siamese Network" or similar and make a database of deltas and their scores from the "Siamese Network". Hence a song can be represented as a list of scores and is a much better representation sending through a network.
 
