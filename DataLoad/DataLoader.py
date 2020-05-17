@@ -16,5 +16,3 @@ class AudioSampleLoader():
     def __getitem__(self, index):
         self.audio.read(self.chunk_loc[index])
         pass
-Dataset= AudioSampleLoader("/home/fatjuicyboi/paper/Audio-Compression/audio-sample/chunks", "mp3")
-print(Dataset.chunk_loc)
